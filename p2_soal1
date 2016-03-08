@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string nama;
+    nama = "Abdullah";
+
+    int usia;
+    usia = 64;
+
+    float tinggi;
+    tinggi = 173.64;
+
+    string hobby;
+    hobby = "Main bola, Nulis, Ngoding";
+
+    cout <<"Data Diri"<<'\n'<<'\n';
+    cout <<"Nama = "<<nama<<'\n';
+    cout <<"Usia = "<<usia<<'\n';
+    cout <<"Tinggi = "<<tinggi<<'\n';
+    cout <<"Hobby = "<<hobby<<'\n';
+    return 0;
+}
