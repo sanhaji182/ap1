@@ -1,0 +1,29 @@
+//contoh penggunaan operator relasi & logika 
+ 
+#include <iostream> 
+using namespace std; 
+ 
+void main() 
+{ 
+  int nilai; 
+  nilai = 3>2; // hasil ungkapan : benar 
+  cout << "nilai = "<<nilai<<endl; 
+  nilai = 2>3; // hasil ungkapan : salah 
+  cout << "nilai = " <<nilai<<endl; 
+   
+  int x = 200; 
+ 
+  cout<<"( x >= 1) && (x <= 50) -> " 
+    <<(( x >= 1) && (x <= 50))<<'\n'; 
+ 
+  cout<<"( x >= 1) || (x <= 50) -> " 
+    <<(( x >= 1) || (x <= 50))<<'\n'; 
+ 
+  int bil1,bil2,minim; 
+  bil1 = 53; 
+  bil2 = 6; 
+   
+  minim = bil1<bil2 ? bil1:bil2; 
+  cout << "Bilangan terkecil =  "<<minim<<'\n'; 
+ 
+}
